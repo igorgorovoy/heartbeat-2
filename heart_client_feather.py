@@ -10,7 +10,7 @@ def on_message(client, userdata, message):
 def on_log(client, userdata, level, buf):
     print(buf)
 
-broker_address="139.59.134.1"
+broker_address=""
 client = mqtt.Client("F1")
 #client.on_message=on_message
 client.on_log=on_log
